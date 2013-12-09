@@ -1,0 +1,22 @@
+---
+abstract: 'wraps other command-line tools to keep or carry-over file timestamps'
+author:
+  - 'Clipland (clipland@cpan.org)'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.84, CPAN::Meta::Converter version 2.132830'
+license: open_source
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-keeptime
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  File::Basename: 0
+resources: {}
+version: 0.03
